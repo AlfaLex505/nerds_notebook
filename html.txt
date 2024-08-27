@@ -1,0 +1,29 @@
+I'll start to use text files for notes of my courses, it all starts with
+front-end development, the teacher likes to teach this for front-end:
+
+The
+purple  -----> CSS - these are adejectives of the web pages, like colors and
+ styles.
+dino    -----> HTML - these are the nouns of the web pages, like the lists,
+headers, bullets, etc.
+danced  -----> JS - Javascript, which are the verbs or the actions of the web
+pages, like pushing a button on a calculator or something like that.
+
+Ok, now, first things first, what is HTML?
+
+HTML ---> HTML stands for Hyper Text Markup Language, is the standard for
+creating web pages, describes the structure of web pages and consists of a
+series of elements, these elements tell the browser how to display the content,
+also, the elements can be labeled as headers, links, paragraphs, etc.
+
+
+HTML tags: We create elements by writing tags. Most (but not all) elements
+consists of an opening and closing tag, for example:
+
+<p> I am a paragraph. </p>
+
+The "<p>" & "</p>" are tags, that mark the beginning and the end of a
+paragraph.
+
+Questions:
+- How many elements and labels exists on HTML?
