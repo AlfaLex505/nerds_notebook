@@ -1,0 +1,31 @@
+Here's my notes about Linux:
+
+===============================================================================
+
+Disk partition:
+
+There are a couple of commands to check disk partition on a Linux machine: df &
+fdisk
+
+- df: This command stands for disk free, and displays information about total
+space and available space on a file system. The FileSystem parameter specifies
+the name of the device on which the file system resides, the directory on which
+the file system is mounted, or the relative path name of a file system. The
+most common option to use in this is the "-h" which stands for human readable
+output.
+
+The output of the command is presented in columns and rows, the columns are
+organized this way: 
+FileSystem, TotalSpace, UsedSpace, FreeSpace, UsedPercentage, MountPoint.
+
+Useful links: https://shorturl.at/VTmkI
+
+- fdisk: This command stands for format disk is a dialog-driven command in Linux
+used for creating and manipulating disk partition table, It i used for the view,
+create, delete, change, resize, copy and move partitions on hard drive using the
+dialog driven interface.
+
+The most common use of this command is the following: "fdisk -l" the "-l" stands
+for lists, and the function is to list all the partitions tables in the machine.
+
+Useful links: https://shorturl.at/V95uK
