@@ -2,4 +2,5 @@ github notes:
 
 github allows you to host webpages simply by pushing the code to github, but
 they're restricted webpages because they would be only front-end design, we
-cannot use server side programming languages like python or C/C++, etc.
+cannot use server side programming languages like python or C/C++, etc. This is
+calle static webpages.
