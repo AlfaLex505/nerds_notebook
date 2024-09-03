@@ -29,3 +29,28 @@ The most common use of this command is the following: "fdisk -l" the "-l" stands
 for lists, and the function is to list all the partitions tables in the machine.
 
 Useful links: https://shorturl.at/V95uK
+
+
+===============================================================================
+
+Add/extend swap space:
+
+Swap space in Linux is used when the amount of physical memory (RAM) is full. If
+the system needs more memory resources and the RAM is still full, inactive pages
+in memory are moved to the swap space. While swap space can help machines with a
+small amount of RAM, it should not be considered a replacement for more RAM.
+Swap space is located on the hard drives, which have a slower acces time than
+physical memory.
+
+The commands of this lesson are:
+
+- dd: The dd command is a powerful tool used for copying and converting files,
+in its simpliest form, the "dd" command requires two primary arguments: "if" &
+"of" which stands for "input file" and "output file" respectively, example of
+the use of this command is: 
+
+dd if=source.txt of=destination.txt
+
+-mkswap: 
+- swapon:
+-swapoff:
